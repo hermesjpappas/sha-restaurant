@@ -3,3 +3,21 @@
 *::after {
     box-sizing: border-box;
 }
+
+.tabsy {
+    border: 2px solid red;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.tab {
+    width: 700px;
+    height: 600px;
+}
+
+label {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
