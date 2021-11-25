@@ -2,45 +2,54 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="This grill-house is not for the faint of heart.">
-	<meta name="keywords" content="restaurant,page,grill,grill-house,bbq,css,html,js,npm,javascript,webpack">
-	<title>"The Murder Scene" - Grill-house / BBQ</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This grill-house is not for the faint of heart.">
+    <meta name="keywords" content="restaurant,page,grill,grill-house,bbq,css,html,js,npm,javascript,webpack">
+    <title>"The Murder Scene" - Grill-house / BBQ</title>
 
     <link rel="icon" href="" type="image/png" sizes="16x16">
-	<link rel="stylesheet" href="styles/reset.css"> 
+    <link rel="stylesheet" href="../styles/reset.css">
     <link href="../node_modules/tabsy-css/dist/tabsy.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 
 <body>
-<div class="tabsy">
-    <input type="radio" id="tab1" name="tab" checked>
-    <label class="tabButton" for="tab1">Tab One</label>
-    <div class="tab">
-    	<div class="content">
-    		Content One
-    	</div>
-    </div>
-    <input type="radio" id="tab2" name="tab" checked>
-    <label class="tabButton" for="tab2">Tab Two</label>
-    <div class="tab">
-    	<div class="content">
-    		Content Two
-    	</div>
-    </div>
-    <input type="radio" id="tab3" name="tab" checked>
-    <label class="tabButton" for="tab3">Tab Three</label>
-    <div class="tab">
-    	<div class="content">
-    		Content Three
-    	</div>
-    </div>
-</div>
-    <div id="content"></div>
-	<script src="main.js"></script>
+    <header>
+        <!-- header and possibly banner underneath here -->
+    </header>
+    <main>
+        <div class="tabsy">
+            <input type="radio" id="tab1" name="tab" checked>
+            <label class="tabButton" for="tab1">Home</label>
+            <div class="tab">
+                <div class="content">
+                    <p>Home info here. We are a wonderful restaurant and stuff.</p>
+                </div>
+            </div>
+            <input type="radio" id="tab2" name="tab" checked>
+            <label class="tabButton" for="tab2">Menu</label>
+            <div class="tab">
+                <div class="content">
+                    <p>This is where the menu goes. Yum yum!</p>
+                </div>
+            </div>
+            <input type="radio" id="tab3" name="tab" checked>
+            <label class="tabButton" for="tab3">Contact</label>
+            <div class="tab">
+                <div class="content">
+                    <p>This is where the contact stuff goes.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- info and links here, maybe? -->
+    </footer>
+
+    <!-- <div id="content"></div> -->
+    <script src="main.js"></script>
 </body>
 
 </html>
