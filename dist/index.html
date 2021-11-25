@@ -11,11 +11,34 @@
 
     <link rel="icon" href="" type="image/png" sizes="16x16">
 	<link rel="stylesheet" href="styles/reset.css">
+    <link href='tabsy.css' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-
+<div class="tabsy">
+    <input type="radio" id="tab1" name="tab" checked>
+    <label class="tabButton" for="tab1">Tab One</label>
+    <div class="tab">
+    	<div class="content">
+    		Content One
+    	</div>
+    </div>
+    <input type="radio" id="tab2" name="tab" checked>
+    <label class="tabButton" for="tab2">Tab Two</label>
+    <div class="tab">
+    	<div class="content">
+    		Content Two
+    	</div>
+    </div>
+    <input type="radio" id="tab3" name="tab" checked>
+    <label class="tabButton" for="tab3">Tab Three</label>
+    <div class="tab">
+    	<div class="content">
+    		Content Three
+    	</div>
+    </div>
+</div>
     <div id="content"></div>
 	<script src="main.js"></script>
 </body>
