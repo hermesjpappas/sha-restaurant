@@ -1,7 +1,7 @@
-function createFooter() {
+function makeFooter() {
     const footer = document.createElement("footer");
 
     return footer;
 }
 
-export { createFooter };
+export { makeFooter };

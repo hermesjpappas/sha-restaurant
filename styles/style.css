@@ -29,7 +29,6 @@ header {
     justify-content: center;
     align-items: center;
     z-index: 999;
-    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.603);
 }
 
 #top-menu h1 {
@@ -44,13 +43,11 @@ header {
     background-position-y: -1750px;
     background-position-x: -450px;
     height: 36rem;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
 }
 
 main {
-    z-index: 998;
-    box-shadow: 1rem -1rem 1rem rgba(0, 0, 0, 0.603);
-    width: 100vw;
-    height: 20px;
-    background-color: black;
+
 }
 
