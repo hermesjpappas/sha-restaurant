@@ -3,3 +3,48 @@
 *::after {
     box-sizing: border-box;
 }
+
+body, html {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-family: 'Spartan', sans-serif;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+#top-menu {
+    background-color: white;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#top-menu h1 {
+    font-size : 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#banner {
+    background-color: brown;
+    background: url("../images/grill.jpg");
+    background-position-y: -1750px;
+    background-position-x: -450px;
+    height: 20rem;
+}
+
+main {
+
+}
+
