@@ -48,6 +48,12 @@ header {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+}
 
+#tabs {
+    display: flex;
+    
 }
 
