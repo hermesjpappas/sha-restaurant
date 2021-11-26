@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --border: 5px solid black;
+}
+
 body, html {
     font-size: 16px;
     display: flex;
@@ -43,8 +47,8 @@ header {
     background-position-y: -1750px;
     background-position-x: -450px;
     height: 36rem;
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
+    border-top: var(--border);
+    /* border-bottom: var(--border); */
 }
 
 main {
@@ -52,8 +56,53 @@ main {
     flex-direction: column;
 }
 
-#tabs {
+#tab-labels {
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+
+.tab-label {
+    /* margin: 0 5rem; */
+    text-transform: uppercase;
+    font-weight: 800;
+    width: calc(100vw / 3);
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: var(--border);
+    border-bottom: var(--border);
+    background-color: rgb(212, 212, 212);
+    color: #777;
+}
+
+.active-h {
+    border-right: var(--border);
+    border-bottom: none;
+    background-color: white;
+    color: black;
+}
+
+.active-m {
+    border-left: var(--border);
+    border-right: var(--border);
+    border-bottom: none;
+    background-color: white;
+    color: black;
+}
+
+.active-c {
+    border-left: var(--border);
+    border-bottom: none;
+    background-color: white;
+    color: black;
+}
+
+#tab {
+    /* border-left: var(--border); */
+    /* border-right: var(--border); */
+    height: 20rem;
 }
 
