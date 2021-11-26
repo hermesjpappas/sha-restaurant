@@ -28,6 +28,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 999;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.603);
 }
 
 #top-menu h1 {
@@ -37,14 +39,17 @@ header {
 }
 
 #banner {
-    background-color: brown;
+    z-index: -20;
     background: url("../images/grill.jpg");
     background-position-y: -1750px;
     background-position-x: -450px;
-    height: 20rem;
+    height: 36rem;
 }
 
 main {
-
+    z-index: 998;
+    box-shadow: 1rem -1rem 1rem rgba(0, 0, 0, 0.603);
+    width: 100vw;
+    height: 20px;
 }
 

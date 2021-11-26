@@ -1,1 +1,1 @@
-console.log("I am working!");
+!function(){const e=document.getElementById("content"),n=document.createElement("header"),t=document.createElement("div");t.id="top-menu";const d=document.createElement("h1");d.innerHTML="&#9876;Murder Grill&#9876",t.appendChild(d);const c=document.createElement("div");c.id="banner",n.appendChild(t),n.appendChild(c),e.appendChild(n)}();
