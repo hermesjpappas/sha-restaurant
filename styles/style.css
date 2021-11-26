@@ -19,6 +19,8 @@ body, html {
 #content {
     display: flex;
     flex-direction: column;
+    /* below prevents scrollbar from shifting items */
+    margin: 0 auto;
 }
 
 a {
