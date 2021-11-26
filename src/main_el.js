@@ -53,6 +53,12 @@ function makeMain() {
 
     main.appendChild(tabLabels);
 
+    const tab = document.createElement("div");
+    tab.id = "tab";
+    tab.innerHTML = homeContent;
+
+    main.appendChild(tab);
+
 
     return main;
 }
