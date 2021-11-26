@@ -31,10 +31,7 @@ function makeMain() {
 
   const tab = makeHome();
   tab.id = "tab";
-
-
   main.appendChild(tab);
-
 
   return main;
 }
