@@ -21,6 +21,17 @@ body, html {
     flex-direction: column;
 }
 
+a {
+    color: #777;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #555;
+    background-color: rgb(224, 224, 224);
+}
+
 header {
     display: flex;
     flex-direction: column;
