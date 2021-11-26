@@ -1,6 +1,4 @@
 function makeHeader() {
-    const content = document.getElementById("content");
-    
     const header = document.createElement("header");
     
     const topMenu = document.createElement("div");
@@ -16,7 +14,7 @@ function makeHeader() {
     header.appendChild(topMenu);
     header.appendChild(banner);
 
-    content.appendChild(header);
+    return header;
 }
 
 export {makeHeader};

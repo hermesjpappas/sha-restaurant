@@ -1,3 +1,5 @@
 import { makeHeader } from './header';
 
-makeHeader();
+const content = document.getElementById("content");
+
+content.appendChild(makeHeader());
