@@ -51,5 +51,6 @@ main {
     box-shadow: 1rem -1rem 1rem rgba(0, 0, 0, 0.603);
     width: 100vw;
     height: 20px;
+    background-color: black;
 }
 

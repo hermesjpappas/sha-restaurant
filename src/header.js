@@ -17,4 +17,4 @@ function makeHeader() {
     return header;
 }
 
-export {makeHeader};
+export { makeHeader };
