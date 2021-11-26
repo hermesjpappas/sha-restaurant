@@ -87,6 +87,7 @@ main {
     border-bottom: var(--border);
     background-color: rgb(212, 212, 212);
     color: #777;
+    cursor: pointer;
 }
 
 .active-h {
@@ -94,6 +95,7 @@ main {
     border-bottom: none;
     background-color: white;
     color: black;
+    cursor: default;
 }
 
 .active-m {
@@ -102,6 +104,7 @@ main {
     border-bottom: none;
     background-color: white;
     color: black;
+    cursor: default;
 }
 
 .active-c {
@@ -109,6 +112,7 @@ main {
     border-bottom: none;
     background-color: white;
     color: black;
+    cursor: default;
 }
 
 #tab {
