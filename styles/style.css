@@ -101,8 +101,36 @@ main {
 }
 
 #tab {
-    /* border-left: var(--border); */
-    /* border-right: var(--border); */
-    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tab h1 {
+    margin: 3rem 0;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#tab h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-transform: lowercase;
+    font-weight: 500;
+}
+
+#tab p {
+    text-indent: 2rem;
+    max-width: 50ch;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.strong {
+    font-weight: 700;
+    font-style: italic;
 }
 
