@@ -56,7 +56,7 @@ header {
 
 #banner {
     z-index: -20;
-    background: url("images/grill.jpg");
+    background: url("../images/grill.jpg");
     background-position-y: -1750px;
     background-position-x: -450px;
     height: 36rem;
