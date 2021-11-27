@@ -9,7 +9,7 @@ const content = document.getElementById("content");
 
 // content.appendChild(makeHeader());
 // content.appendChild(makeMain());
-// content.appendChild(makeFooter());
+ //content.appendChild(makeFooter());
 
 const home = document.getElementById("home");
 const menu = document.getElementById("menu");
