@@ -155,3 +155,31 @@ p {
     font-style: italic;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    margin-top: 3rem;
+    padding: 2rem 0; 
+}
+
+#social, 
+#copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+#social i {
+    font-size: 2rem;
+    margin: 0 1rem;
+    
+}
+
+#social i:hover {
+    color: #777;
+    cursor: pointer;
+}
+
