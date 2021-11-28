@@ -5,7 +5,7 @@ function makeContact() {
     heading.textContent = "talk.";
 
     const tagline = document.createElement("h2");
-    tagline.textContent = "or text. or something";
+    tagline.textContent = "or text. or something.";
 
     container.appendChild(heading);
     container.appendChild(tagline);
