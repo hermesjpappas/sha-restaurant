@@ -61,7 +61,6 @@ header {
     background-position-x: -450px;
     height: 36rem;
     border-top: var(--border);
-    /* border-bottom: var(--border); */
 }
 
 main {
@@ -183,3 +182,44 @@ footer {
     cursor: pointer;
 }
 
+
+@media screen and (max-width: 750px) {
+    #top-menu h1 {
+        font-size: 1.5rem;
+    }
+
+    .tab-label {
+        font-size: 1rem;
+    }
+
+    #tab {
+        padding: 0 2rem;
+    }
+
+    #tab h1 {
+        font-size: 3rem;
+    }
+
+    #tab h2 {
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .details {
+        text-align: center;
+    }
+    .details .strong {
+        display: block;
+        text-align: center;
+        margin-left: -2rem;
+    }
+
+    #banner {
+        height: 20rem;
+        background-position-y: 0;
+        background-position-x: 0;
+        background-size: cover;
+    }
+
+}
