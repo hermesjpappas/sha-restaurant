@@ -61,7 +61,6 @@ header {
     background-position-x: -450px;
     height: 36rem;
     border-top: var(--border);
-    /* border-bottom: var(--border); */
 }
 
 main {
@@ -214,4 +213,12 @@ footer {
         text-align: center;
         margin-left: -2rem;
     }
+
+    #banner {
+        height: 20rem;
+        background-position-y: 0;
+        background-position-x: 0;
+        background-size: cover;
+    }
+
 }
